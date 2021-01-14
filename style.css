@@ -1,0 +1,90 @@
+.header-color {
+	height: 80px;
+	z-index: 10;
+}
+
+.header-scroll {
+	background-color: #ffecec;
+	box-shadow: 1px 1px 10px grey;
+}
+
+.header-color .container, .navbar, .navbar-brand {
+	height: 100%;
+}
+
+.header-color .container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#menulinks {
+	list-style:none;
+}
+
+.menulink {
+	font-family: "Impact";
+	font-size: 1.3em;
+	opacity: 0.7 !important;
+	color:white;
+	transition: all 0.5s;
+	margin: 0 10px 0 10px;
+}
+
+.menulink:hover {
+	color: white;
+	opacity: 1 !important;
+	text-shadow: 2px 2px grey;
+	font-size: 1.35em;
+	text-decoration: none;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: black !important;
+	transition: all 1s;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	margin-top: -4px;
+}
+
+.wallpaper {
+	background: url("media/wallpaper.jpg") no-repeat center;
+	width: 100%;
+	z-index: -2;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.blocone {
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 200px;
+}
+
+.img {
+	width: 60%;
+}
+
+.titleone {
+	text-align: center;
+	color: white;
+	font-family: "Impact";
+	text-shadow: 3px 3px 3px grey, 0 0 1em grey;
+}
+
+.blocbio {
+	margin-top: 862px;
+	background-color: #ffecec;
+	width: 100%;
+	height: 860px;
+}
