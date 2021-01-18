@@ -86,5 +86,89 @@
 	margin-top: 862px;
 	background-color: #ffecec;
 	width: 100%;
-	height: 860px;
+	height: 900px;
+	display: flex;
+	align-items: center;
+}
+
+.titletwo {
+	text-align: center;
+	color: black;
+	font-size: 3.5em;
+	font-family: "Impact";
+	text-align: left;
+}
+
+.img2 {
+	object-fit: contain;
+	width: 40%;
+}
+
+.textbloctwo {
+	width: 30%;
+}
+
+.skills {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.skill {
+	margin-bottom: 1rem;
+}
+
+.skill h3 {
+	font-size: 1.2em;
+}
+
+.progress-bar {
+	background-color: orange;
+}
+
+.blocprojects {
+	background-color: #ffecec;
+	width: 100%;
+	height: 900px;
+	display: flex;
+	align-items: center;
+}
+
+.titlethree {
+	font-size: 3em;
+}
+
+.separation {
+	background-color: grey;
+	height: 300px;
+	width: 1px;
+}
+
+.imgprojet {
+	width: 40%;
+	text-shadow: 3px 3px 3px grey, 0 0 1em grey;
+	border : 1px black solid;
+}
+
+.divprojects {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.projets {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bloccontact {
+	background-color: #ffe4e4;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.formulaire {
+	width: 80%;
 }
