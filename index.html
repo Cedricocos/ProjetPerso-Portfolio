@@ -18,6 +18,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="media/favicon.ico">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="JS/scroll.js"></script>
   <title>Cedricocos' Space</title>
 </head>
 
@@ -29,7 +30,7 @@
       <div class="row">
         <nav class="col navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand d-flex flex-row" href="index.html">
-            <img src="media/Logo.png" height="30" alt="Logo" class="logo">
+            <img src="media/logo.png" height="30" alt="Logo" class="logo">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
@@ -58,8 +59,8 @@
   <div class="bloc wallpaper" id="accueil">
     <div class="container blocone">
       <div class="row">
-        <div class="col-sm-12 d-flex flex-column align-items-center mt-5">
-          <img src="media/Cedricocos.png" class="center-block img mb-3" alt="Logo">
+        <div class="col-sm-12 d-flex flex-column align-items-center">
+          <img src="media/cedricocos.png" class="center-block img mb-3" alt="Logo">
           <h1 class="titleone">
             Je suis Cedricocos.<br>
             Bienvenue sur mon espace !
@@ -75,13 +76,12 @@
     <div class="container bloctwo">
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center">
-          <img src="media/Cedricocos2.png" class="center-block img2 mb-3 mr-3" alt="Logo" />
+          <img src="media/cedricocos2.png" class="center-block img2 mb-3 mr-3" alt="Logo" />
           <div class="textbloctwo">
             <h1 class="titletwo">Ma bio</h1>
             <p>La vérité est toujours belle et terrible. C'est pourquoi il faut l'aborder avec beaucoup de précautions.
               Seulement, les humains ont un don pour désirer ce qui leur fait le plus mal.</p>
-            <p>Après tout, pour un esprit équilibré, la mort n’est qu’une grande aventure de plus. J’aime me beurrer la
-              biscotte. Ça fait un peu, Jacques a dit a dit pas de charcuterie.</p>
+            <p>Après tout, pour un esprit équilibré, la mort n’est qu’une grande aventure de plus.</p>
             <div class="skills">
               <div class="skill">
                 <h3>HTML5</h3>
@@ -134,7 +134,6 @@
         </div>
       </div>
     </div>
-    <script src="JS/scroll.js"></script>
   </div>
   <!---Bloc2 END-->
 
@@ -142,24 +141,62 @@
   <div class="bloc blocprojects" id="projets">
     <div class="container blocthree">
       <div class="row">
-        <div class="col-sm-12 d-flex flex-column align-items-center mt-5">
+        <div class="col-sm-12 d-flex flex-column align-items-center">
           <h1 class="titlethree">Mes Projets</h1>
           <div class="w-100 mt-5 d-flex flex-row justify-content-around">
             <div class="divprojects">
-              <h2>Projets d'école</h2>
+              <h2 class="undertitlethree">Projets d'école</h2>
               <div class="projets d-flex flex-wrap">
-                <img src="media/projet2-oc.png" class="imgprojet mt-3" alt="Projet CV">
-                <img src="media/projet3-oc.png" class="imgprojet mt-3" alt="Projet site web">
-                <img src="media/projet5-oc.png" class="imgprojet mt-3" alt="Projet site e-commerce">
-                <img src="media/projet7-oc.png" class="imgprojet mt-3" alt="Projet reseau social">
+
+                <div class="divimgprojet projet2 mt-3">
+                  <div class="hoverproject">
+                    <a class="projectlink btn btn-light" href="https://github.com/Cedricocos/OC-Projet2-CV"
+                      target="blank">Voir le projet</a>
+                  </div>
+                </div>
+
+                <div class="divimgprojet projet3 mt-3">
+                  <div class="hoverproject">
+                    <a class="projectlink btn btn-light" href="https://github.com/Cedricocos/OC-Projet3-Ohmyfood"
+                      target="blank">Voir le projet</a>
+                  </div>
+                </div>
+
+                <div class="divimgprojet projet5 mt-3">
+                  <div class="hoverproject">
+                    <a class="projectlink btn btn-light" href="https://github.com/Cedricocos/OC-Projet5-Orinoco"
+                      target="blank">Voir le projet</a>
+                  </div>
+                </div>
+
+                <div class="divimgprojet projet7 mt-3">
+                  <div class="hoverproject">
+                    <a class="projectlink btn btn-light" href="https://github.com/Cedricocos/OC-Projet7-Groupomania"
+                      target="blank">Voir le projet</a>
+                  </div>
+                </div>
+
               </div>
             </div>
             <div class="separation"></div>
             <div class="divprojects">
-              <h2>Projets Persos</h2>
+              <h2 class="undertitlethree">Projets Persos</h2>
               <div class="projets d-flex flex-wrap">
-                <img src="media/projetbbs.png" class="imgprojet mt-3" alt="Projet site streaming legal">
-                <img src="media/projetp-f.png" class="imgprojet mt-3" alt="Projet porte-folio">
+
+                <div class="divimgprojet projetbbs mt-3">
+                  <div class="hoverproject">
+                    <a class="projectlink btn btn-light" href="https://github.com/Beyblade-Burst-Streaming/Beyblade-Burst-Streaming.github.io"
+                      target="blank">Voir le projet</a>
+                  </div>
+                </div>
+
+                <div class="divimgprojet projetpf mt-3">
+                  <div class="hoverproject">
+                    <a class="projectlink btn btn-light" href="https://github.com/Cedricocos/ProjetPerso-Portfolio"
+                      target="blank">Voir le projet</a>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

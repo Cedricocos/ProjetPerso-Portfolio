@@ -1,6 +1,11 @@
+body {
+	background-color: #ffecec;
+}
+
 .header-color {
 	height: 80px;
-	z-index: 10;
+	position: sticky;
+	z-index: 2;
 }
 
 .header-scroll {
@@ -19,14 +24,14 @@
 }
 
 #menulinks {
-	list-style:none;
+	list-style: none;
 }
 
 .menulink {
 	font-family: "Impact";
 	font-size: 1.3em;
 	opacity: 0.7 !important;
-	color:white;
+	color: white;
 	transition: all 0.5s;
 	margin: 0 10px 0 10px;
 }
@@ -56,7 +61,7 @@
 .wallpaper {
 	background: url("media/wallpaper.jpg") no-repeat center;
 	width: 100%;
-	z-index: -2;
+	z-index: 1;
 	background-attachment: fixed;
 	position: absolute;
 	top: 0;
@@ -64,7 +69,6 @@
 }
 
 .blocone {
-	z-index: 10;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -83,12 +87,13 @@
 }
 
 .blocbio {
-	margin-top: 862px;
+	top: 950px;
 	background-color: #ffecec;
 	width: 100%;
 	height: 900px;
 	display: flex;
 	align-items: center;
+	position: absolute;
 }
 
 .titletwo {
@@ -128,25 +133,32 @@
 .blocprojects {
 	background-color: #ffecec;
 	width: 100%;
-	height: 900px;
+	height: 700px;
 	display: flex;
-	align-items: center;
+	position: absolute;
+	top: 1950px;
 }
 
 .titlethree {
 	font-size: 3em;
+	font-family: "Impact";
+}
+
+.undertitlethree {
+	font-family: "Impact";
 }
 
 .separation {
 	background-color: grey;
 	height: 300px;
 	width: 1px;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
-.imgprojet {
-	width: 40%;
+.divimgprojet {
+	width: 45%;
 	text-shadow: 3px 3px 3px grey, 0 0 1em grey;
-	border : 1px black solid;
 }
 
 .divprojects {
@@ -159,16 +171,81 @@
 .projets {
 	display: flex;
 	justify-content: space-around;
+	width: 100%;
+	height: 100%;
 }
 
-.bloccontact {
+.hoverproject {
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition: 1s all;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hoverproject:hover {
+	opacity: 1;
+}
+
+/* .bloccontact {
 	background-color: #ffe4e4;
 	width: 100%;
 	height: 500px;
 	display: flex;
 	align-items: center;
+} */
+
+/* .formulaire {
+	width: 80%;
+} */
+
+.projet2 {
+	background: url("media/projet2-oc.png") no-repeat center;
+	height: 50%;
+	background-size: cover;
 }
 
-.formulaire {
-	width: 80%;
+.projet3 {
+	background: url("media/projet3-oc.png") no-repeat center;
+	height: 50%;
+	background-size: cover;
+}
+
+.projet5 {
+	background: url("media/projet5-oc.png") no-repeat center;
+	height: 50%;
+	background-size: cover;
+}
+
+.projet7 {
+	background: url("media/projet7-oc.png") no-repeat center;
+	height: 50%;
+	background-size: cover;
+}
+
+.projetbbs {
+	background: url("media/projetbbs.png") no-repeat center;
+	height: 50%;
+	background-size: cover;
+}
+
+.projetpf {
+	background: url("media/projetp-f.png") no-repeat center;
+	height: 50%;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 770px) {
+	.img2 {
+		display: none;
+	}
+	.textbloctwo {
+		width: 80%;
+	}
+	.blocbio {
+		margin-top: 800px;
+	}
 }
